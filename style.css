@@ -164,3 +164,9 @@ ul li{
     color: rgb(116, 114, 114);
     line-height: 17px;
 }
+
+.fas{
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 9px;
+}
