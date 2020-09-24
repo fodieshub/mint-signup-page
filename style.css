@@ -45,3 +45,15 @@ h1{
     color: rgb(155, 152, 152);
     font-size: 45px;
 }
+#icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#icons p{
+    padding-top: 2px;
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
