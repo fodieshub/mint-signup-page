@@ -176,3 +176,11 @@ ul li {
   font-size: 12px;
   margin-right: 9px;
 }
+
+.lock {
+  position: absolute; 
+  left: 59%;
+  margin-top: 20px;
+  color: rgb(139, 139, 139);
+  font-size: 20px;
+}
