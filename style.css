@@ -1,6 +1,6 @@
-*{
-  padding: 0px;
-  margin: 0px;
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -21,8 +21,8 @@ body {
 .signin-btn {
   padding: 7px 20px;
   margin-left: 10px;
-  background-color:#2B34B7;
-  color: #ffffff;
+  background-color:#2b34b7;
+  color: #fff;
   border: none;
   font-size: 15px;
   border-radius: 3px;
@@ -37,7 +37,7 @@ p {
 a {
   text-decoration: none;
   font-size: 12px;
-  color:#2B34B7;
+  color: #2b34b7;
 }
 
 h1 {
@@ -54,6 +54,22 @@ h1 {
   margin-bottom: 20px;
 }
 
+.box-footer p {
+  padding-top: 20px;
+  font-size: 10px;
+  color: rgb(97, 96, 96);
+}
+
+.bottom-text p {
+  color: gray;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.form-wrap p {
+  font-size: 10px;
+}
+
 #icons p {
   padding-top: 2px;
   color: rgb(150, 150, 150);
@@ -65,7 +81,7 @@ h1 {
 .signup-box {
   padding-top: 3px;
   width: 380px;
-  background: #ffffff;
+  background: #fff;
   margin: 0 auto;
   text-align: center;
   border: 1px solid rgb(209, 209, 209);
@@ -92,10 +108,6 @@ form {
   text-align: left;
 }
 
-.form-wrap p {
-  font-size: 10px;
-}
-
 input {
   width: 100%;
   height: 35px;
@@ -114,7 +126,7 @@ label {
 }
 
 .btn {
-  background-color: #2B34B7;
+  background-color: #2b34b7;
   color: #fff;
   border: none;
   font-size: 15px;
@@ -126,28 +138,16 @@ label {
   cursor: pointer;
 }
 
-.bottom-text p {
-  color: gray;
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
 .box-footer {
   background-color: rgba(230, 231, 245, 0.781);
   width: 100%;
   height: 45px;
 }
 
-.box-footer p {
-  padding-top: 20px;
-  font-size: 10px;
-  color: rgb(97, 96, 96);
-}
-
 .box-footer a {
   padding-top: 20px;
   font-size: 10px;
-  color: #2B34B7;
+  color: #2b34b7;
 }
 
 ul {
@@ -165,7 +165,7 @@ ul li {
 
 .footer {
   width: 700px;
-  margin: 10px auto;    
+  margin: 10px auto;
   text-align: center;
   color: rgb(116, 114, 114);
   line-height: 17px;
